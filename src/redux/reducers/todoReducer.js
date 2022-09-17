@@ -57,6 +57,7 @@ const initialState = {
           }
           return el;
         });
+        
         return {
           ...state,
           todos: modifiedTodos,
